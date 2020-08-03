@@ -1,0 +1,38 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1px;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #003380;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+ul.navbuttons{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li nav{
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    color: #003380;
+    font-weight: bold;
+}
+
+li nav:hover{
+    color: #3485bb;
+}
+
