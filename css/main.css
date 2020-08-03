@@ -1,11 +1,9 @@
 *{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
-.topbar{
+header{
     display: flex;
-    align-items: center;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 1px;
+    align-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
@@ -15,27 +13,30 @@
 .logo{
     max-width: 100%;
     height: auto;
+    margin: 0 0 5px 0;
+}
+
+ul.navbar{
+    display: flex;
+    align-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    flex-wrap: wrap;
     margin: 0;
 }
 
-ul.navbuttons{
-    display: flex;
-    list-style-type: none;
-    overflow: hidden;
-}
-
-li a{
+li.navbutton a{
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5em;
     color: #003380;
 }
 
-li a:hover{
+li.navbutton a:hover{
     color: #3485bb;
     font-weight: bold;
 }
 
-.active{
+.navbutton .active{
     font-weight: bold;
 }
 
