@@ -24,15 +24,19 @@ ul.navbuttons{
     overflow: hidden;
 }
 
-li nav{
-    text-align: center;
+li a{
     text-decoration: none;
     padding: 1em;
     color: #003380;
+}
+
+li a:hover{
+    color: #3485bb;
     font-weight: bold;
 }
 
-li nav:hover{
-    color: #3485bb;
+li a:active{
+    text-decoration: none;
+    font-weight: bold;
 }
 
