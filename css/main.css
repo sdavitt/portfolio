@@ -35,8 +35,7 @@ li a:hover{
     font-weight: bold;
 }
 
-li a:active{
-    text-decoration: none;
+.active{
     font-weight: bold;
 }
 
