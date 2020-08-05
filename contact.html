@@ -1,6 +1,52 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/main.css">
+        <style>
+            .formcontainer{
+                display: flex;
+                place-content: center;
+                padding: 60px;
+            }
+            .form{
+                background-color: #3485bb;
+                padding: 10px 20px;
+                color: white;
+                border-radius: 3px;
+            }
+
+            input[type=submit]{
+                background-color: #003380;
+                color: white;
+                width: 100%;
+                border: none;
+                border-radius: 2px;
+                margin: 10px 0;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover{
+                background-color: white;
+                color: #003380;
+            }
+
+            input[type=text], textarea{
+                width: 100%;
+                font-size: 14px;
+                background-color:white;
+                margin: 10px 0;
+                border: none;
+                border-radius: 2px;
+                resize: none;
+                
+            }
+
+            /* errors somewhere - border will not dissapear on focus */
+            input[type=text]:focus, textarea:focus{
+                border: none;
+                border-style:none;
+            }
+        </style>
     </head>
 
     <!--header contains the logo and navigation buttons-->
@@ -13,8 +59,16 @@
         </ul>
     </header>
 
-    <!--TODO: flexbox setup of contact form with email/name/question and basic contact info-->
+    <!--TODO: clean up flexbox steup (its a mess) and make form actually work-->
     <body>
-        <h2>PAGE UNDER CONSTRUCTION</h2>
+        <div class="formcontainer">
+            <form class="form" autocomplete="off">
+                <h1>CONTACT ME</h1>
+                <input type="text" id="name" name="name" placeholder="Name..."><br>
+                <input type="text" id="email" name="email" placeholder ="E-mail..."><br>
+                <textarea id="message" name="message" placeholder="Message..." style="height:60px;"></textarea><br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
     </body>
 </html>
