@@ -59,7 +59,7 @@ ul.navbar{
 /* column setup */
 .leftcolumn{
     float: left;
-    width: 75%;
+    width: 60%;
     text-align: center;
     border-style: solid;
     border-color: #003380;
@@ -69,7 +69,7 @@ ul.navbar{
 /* column setup + divider line */
 .rightcolumn{
     float: left;
-    width: 25%;
+    width: 40%;
 }
 
 /* display sections */
