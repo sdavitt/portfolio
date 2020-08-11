@@ -21,8 +21,9 @@ header{
 .logo a{
     max-width: 100%;
     height: auto;
-    margin: 0 0 5px 0;
+    padding: 2px;
     text-decoration: none;
+    align-items: center;
     color: #003380;
 }
 .logo a:hover{
@@ -56,21 +57,7 @@ ul.navbar{
     font-weight: bold;
 }
 
-/* column setup */
-.leftcolumn{
-    float: left;
-    width: 60%;
-    text-align: center;
-    border-style: solid;
-    border-color: #003380;
-    border-width: 0 1px 0 0;
-}
 
-/* column setup + divider line */
-.rightcolumn{
-    float: left;
-    width: 40%;
-}
 
 /* display sections */
 .section{
@@ -82,32 +69,16 @@ ul.navbar{
 }
 
 /* image formatting in column section */
-.sectionimg{
-    width: auto;
-    height: 300px;
-    padding: 10px;
-}
-
-/* clearing columns at end of page */
-.form:after{
-    content:"";
-    display: table;
-    clear: both;
-}
-
-.footer{
-    width: 100%;
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    border-color: #003380;
+.img-fluid{
+    max-height: 300px;
 }
 
 /* reponsive layout for small screens */
-@media screen and (max-width: 1000px) {
+/*@media screen and (max-width: 1000px) {
     .leftcolumn, .rightcolumn{   
       width: 100%;
       padding: 0;
       border-style: none;
     }
-  }
+  }*/
 
